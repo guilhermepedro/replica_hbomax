@@ -1,0 +1,172 @@
+header{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.hbo_logo{
+    height: 20px;
+    width: 120px;
+    background-image: url('../replica_hbomax/hbo-max.svg');
+    background-size: cover;
+}
+
+body{
+    background-image: url('../replica_hbomax/bg-gradient.jpg');
+}
+
+.espaço_componente{
+    flex-grow: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding: 32px 16px;
+}
+
+.espaço_conteudo{
+    max-width: 440px;
+    min-width: 280px;
+    margin: 0 auto;
+}
+
+.entrar{
+    font-family: 'Gilroy', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 19px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.espaço_formulario{
+    width: 100%;
+    top: 64px;
+    top: var(--screen-top-alignment);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    min-height: calc(100vh - 64px - 100px);
+    flex-direction: column;
+
+}
+
+.form_componente{
+    padding-top: 16px;
+    position: relative;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+input{
+    transition: background-color 999999s, color 999999s, filter 999999s;
+    animation-duration: 999999s;
+    animation-name: onautofillcancel;
+}
+
+label{
+    color: #999999;
+    transform: scale(.85) translateY(-20px);
+    cursor: default;
+}
+
+.campo_componente{
+    width: 100%;
+}
+
+.input_campo_texto{
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    margin: 0 0 4px;
+    font-size: 50px;
+    text-align: left;
+}
+
+.input_campo_nome{
+    border-color: #999999;
+    caret-color: #999999;
+    padding-top: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    color: #ffffff;
+    caret-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    height: 100%;
+    padding: 18px 0 0;
+    transition-property: border-color,transform;
+    transition-duration: .6s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+
+.input_email{
+    position: static;
+    border: none;
+    padding: 18px 0 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    color: #ffffff;
+    caret-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    height: 100%;
+    padding: 18px 0 0;
+    transition-property: border-color,transform;
+    transition-duration: .6s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+
+}
+
+.label_textoEmail{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 17px;
+    color: #c8c8c8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform-origin: 0 50%;
+    cursor: text;
+    pointer-events: none;
+    transition-property: color,transform;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
