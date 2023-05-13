@@ -26,6 +26,18 @@ body{
     padding: 32px 16px;
 }
 
+.componente_tela{
+    width: 100%;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    min-height: calc(100vh - 64px - 100px);
+    display: flex;
+    flex-direction: column;
+}
+
 .espaço_conteudo{
     max-width: 440px;
     min-width: 280px;
@@ -45,7 +57,6 @@ body{
 .espaço_formulario{
     width: 100%;
     top: 64px;
-    top: var(--screen-top-alignment);
     left: 0;
     right: 0;
     bottom: 0;
@@ -87,6 +98,7 @@ label{
     color: #999999;
     transform: scale(.85) translateY(-20px);
     cursor: default;
+    text-align: left;
 }
 
 .campo_componente{
@@ -103,27 +115,13 @@ label{
 }
 
 .input_campo_nome{
-    border-color: #999999;
-    caret-color: #999999;
-    padding-top: 0;
     background-color: transparent;
-    box-sizing: border-box;
-    border-radius: 0;
-    border: 0;
-    border-bottom: 2px solid #999999;
-    color: #ffffff;
-    caret-color: #ffffff;
-    position: absolute;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    outline: none;
-    height: 100%;
-    padding: 18px 0 0;
-    transition-property: border-color,transform;
-    transition-duration: .6s;
-    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    height: 60px;
+    margin: 0 0 4px;
+    position: relative;
 }
+
 
 .input_email{
     position: static;
@@ -150,10 +148,13 @@ label{
 }
 
 .label_textoEmail{
+    color: #999999;
+    transform: scale(.85) translateY(-20px);
+    cursor: default;
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 17px;
+    bottom: 120px;
     color: #c8c8c8;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -168,5 +169,88 @@ label{
     text-align: left;
 }
 
+.campo_espaçamento{
+    color: #69dbb1;
+    font-size: 12px;
+    min-height: 16px;
+    text-align: left;
+}
+
+.campo_imputpassword{
+    position: relative;
+    width: 100%;
+}
+
+.ce__Input__fieldContainer{
+    width: 100%;
+}
+
+.campo_textoInput{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    margin: 0 0 4px;
+}
+
+.campo_inputSenha{
+    border-color: #999999;
+    caret-color: #999999;
+    padding-right: 56px;
+    padding-top: 0;
+}
+
+.input_senha{
+    position: static;
+    border: none;
+    padding: 18px 0 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    color: #ffffff;
+    caret-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    height: 100%;
+    padding: 18px 0 0;
+    transition-property: border-color,transform;
+    transition-duration: .6s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+
+.label_textoSenha{
+    color: #999999;
+    transform: scale(.85) translateY(-20px);
+    cursor: default;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 20px;
+    color: #c8c8c8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform-origin: 0 50%;
+    cursor: text;
+    pointer-events: none;
+    transition-property: color,transform;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    font-size: 18px;
+    text-align: left;
+}
+
+.espaço_componenteBotão{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 32px 16px;
+}
 
 
