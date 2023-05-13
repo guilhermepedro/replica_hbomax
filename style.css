@@ -253,4 +253,35 @@ label{
     padding: 32px 16px;
 }
 
+.btnEntrar{
+    padding: 0 36px;
+    width: auto;
+    min-width: 316px;
+    position: relative;
+    box-shadow: 0 5px 12px rgba(0,0,0,.2);
+    position: relative;
+    width: 75%;
+    background: #7b2abf;
+    border: 2px solid transparent;
+    min-width: 280px;
+    border-radius: 2em;
+    color: #ffffff;
+    letter-spacing: 1.71429px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gilroy', sans-serif;
+    height: 52px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-property: color,border-color,background-color;
+    transition-duration: .8s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    outline: none;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+
 
