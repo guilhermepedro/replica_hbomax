@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
 header{
     height: 64px;
     display: flex;
@@ -9,10 +15,10 @@ header{
 }
 
 .hbo_logo{
-    height: 20px;
-    width: 120px;
+    height: 32px;
+    width: 190px;
     background-image: url('../replica_hbomax/hbo-max.svg');
-    background-size: cover;
+    
 }
 
 body{
@@ -52,6 +58,7 @@ body{
     margin: 19px 0 0;
     padding: 0;
     text-align: center;
+    color: white;
 }
 
 .espaço_formulario{
@@ -154,8 +161,7 @@ label{
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 120px;
-    color: #c8c8c8;
+    bottom: 350px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -181,7 +187,7 @@ label{
     width: 100%;
 }
 
-.ce__Input__fieldContainer{
+.campo_input{
     width: 100%;
 }
 
@@ -233,7 +239,6 @@ label{
     width: 100%;
     left: 0;
     bottom: 20px;
-    color: #c8c8c8;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -283,5 +288,92 @@ label{
     cursor: pointer;
 }
 
+.btnSecundario{
+    line-height: 52px;
+    padding: 0 36px;
+    width: auto;
+    min-width: 316px;
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2em;
+    color: #ffffff;
+    letter-spacing: 1.71429px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gilroy', sans-serif;
+    height: 52px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-property: color,border-color,background-color;
+    transition-duration: .8s;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    outline: none;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.paragrafo_componente{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.paragrafo_sem_Espaços{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    
+}
+
+.paragrafo_EsqueceuSenha{
+    color: #bac7ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(3,3,40,.8);
+    width: 100%;
+    min-height: 150px;
+    padding: 12px;
+}
+
+.footer_item{
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 24px;
+    padding: 8px 12px;
+}
+
+.footer_link{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    color: #bac7ff;
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+    color: #9e86ff;
+    cursor: pointer;
+
+}
+
+.buttonSecundario_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    width: 100%;
+    height: 100%;
+}
 
 
