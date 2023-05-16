@@ -12,6 +12,7 @@ header{
     align-items: center;
     width: 100%;
     background-color: rgba(0,0,0,.4);
+    margin-top: 0;
 }
 
 .hbo_logo{
@@ -151,6 +152,7 @@ label{
     transition-property: border-color,transform;
     transition-duration: .6s;
     transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    font-size: 18px;
 
 }
 
@@ -161,7 +163,7 @@ label{
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 350px;
+    bottom: 353px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -344,8 +346,9 @@ footer{
     text-align: center;
     background-color: rgba(3,3,40,.8);
     width: 100%;
-    min-height: 150px;
+    min-height: 120px;
     padding: 12px;
+    margin-bottom: 0%;
 }
 
 .footer_item{
@@ -359,7 +362,6 @@ footer{
     font-family: 'Gilroy', sans-serif;
     font-weight: 400;
     color: #bac7ff;
-    color: var(--link-color);
     cursor: pointer;
     text-decoration: none;
     color: #9e86ff;
@@ -376,4 +378,37 @@ footer{
     height: 100%;
 }
 
+.idioma_componente{
+    position: relative;
+}
 
+.btn_idioma{
+    border: none;
+    background: none;
+    display: inline-block;
+    color: #9e86ff;
+    font-size: 15px;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.icone_planeta{
+    stroke: #9e86ff;
+    position: relative;
+    top: 1px;
+    left: 0;
+    width: 15px;
+    height: 11px;
+    padding-right: 4px;
+    background-image: url('../replica_hbomax/Captura\ de\ tela\ 2023-05-15\ 234356.png');
+    background-position: center;
+}
+
+.icone_seta{
+    position: relative;
+    top: 3px;
+    width: 14px;
+    height: 12px;
+    padding-left: 4px;
+    background-image: url('../replica_hbomax/Captura\ de\ tela\ 2023-05-16\ 002208.png');
+    background-position: center;
+}
