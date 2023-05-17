@@ -130,3 +130,60 @@ header{
     cursor: pointer;
     text-decoration: none;
 }
+
+.tela_component{
+    width: 100%;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    min-height: calc(100vh - 64px - 100px);
+    display: flex;
+    flex-direction: column;
+}
+
+.spacing_component{
+    padding: 32px 16px;
+}
+
+.tela_spacing{
+    flex-grow: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.telaConteudo_component{
+    max-width: 950px;
+    min-width: 280px;
+    margin: 0 auto;
+}
+
+.steps{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.steps_step{
+    padding: 0 10px;
+}
+
+.screen_title{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 19px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.paragraph_component{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 16px 0;
+}
