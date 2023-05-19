@@ -4,6 +4,78 @@
     font-family: 'Gilroy-Regular', sans-serif;
 }
 
+.root, body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.root{
+    --font-size: 16px;
+    --font-weight: 400;
+    --font-family: "Gilroy",sans-serif;
+    --plain-text-color: #f0f0f0;
+    --input-text-color: #fff;
+    --text-highlight-color: var(--input-text-color);
+    --input-background-color: transparent;
+    --input-inactive-highlight-color: #999;
+    --input-active-highlight-color: #9a35ef;
+    --input-filled-highlight-color: var(--input-inactive-highlight-color);
+    --error-color: #ff5b83;
+    --error-color-strong: #e13741;
+    --input-invalid-highlight-color: var(--error-color);
+    --input-valid-highligh-color: #69dbb1;
+    --label-active-color: #999;
+    --label-inactive-color: #c8c8c8;
+    --button-font-family: var(--font-family);
+    --button-font-size: 16px;
+    --button-height: 52px;
+    --button-line-height: 24px;
+    --heading-font-family: var(--font-family);
+    --heading-font-size: 32px;
+    --heading-font-size-small: 32px;
+    --heading-line-height: 40px;
+    --heading-font-weight: 300;
+    --heading-margin: 19px 0 0;
+    --heading-padding: 0;
+    --heading-text-align: center;
+    --label-font-size: 16px;
+    --button-border-radius: 2em;
+    --button-background: #7b2abf;
+    --button-background-secondary: transparent;
+    --button-hover-background-secondary: transparent;
+    --button-pressed-background-secondary: transparent;
+    --button-hover-background: #9a35ef;
+    --button-pressed-background: #9a35ef;
+    --button-focused-background: #9a35ef;
+    --button-text-color: #fff;
+    --button-text-disabled-color: #7f7f7f;
+    --button-border: 2px solid transparent;
+    --button-border-disabled: 2px solid #7f7f7f;
+    --button-background-disabled: transparent;
+    --button-border-secondary: 2px solid #fff;
+    --button-hover-bg-image: none;
+    --button-hover-border-secondary: 2px solid var(--input-active-highlight-color);
+    --button-hover-border: 2px solid var(--button-hover-background);
+    --button-pressed-border: none;
+    --button-focused-border: 1px solid var(--button-focused-background);
+    --button-focused-outline: 2px solid var(--input-text-color);
+    --button-focused-outline-offset: 2px;
+    --button-focused-outline-border-radius: 4px;
+    --link-font-weight: var(--font-weight);
+    --link-font-family: var(--font-family);
+    --link-color: #bac7ff;
+    --column-gutter-size: 16px;
+    --toast-bg-color: #bac7ff;
+    --toast-text-color: #0f0f0f;
+    --subtitle-color: var(--input-inactive-highlight-color);
+    --tooltip-bg-color: #000;
+    --dot-color: #bda3f5;
+    --dot-inactive-color: #232323;
+    --footer-min-height: 100px;
+    --recaptcha-text-color: var(--subtitle-color);
+    --screen-top-alignment: 64px;
+}
+
 header{
     height: 64px;
     display: flex;
@@ -345,7 +417,7 @@ footer{
     justify-content: center;
     text-align: center;
     background-color: rgba(3,3,40,.8);
-    width: 100%;
+    width: 101%;
     min-height: 120px;
     padding: 12px;
     margin-bottom: 0%;
