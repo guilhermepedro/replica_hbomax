@@ -285,7 +285,6 @@ form{
 .columnName_container{
     flex-direction: row;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
