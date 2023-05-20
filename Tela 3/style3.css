@@ -310,7 +310,6 @@ form{
     box-sizing: border-box;
     border-radius: 0;
     border: 0;
-    border-bottom: 2px solid #999999;
     color: #ffffff;
     caret-color: #ffffff;
     position: absolute;
@@ -343,7 +342,6 @@ form{
     outline: none;
     height: 100%;
     padding: 18px 0 0;
-    transition-property: border-color,transform;
     transition-duration: .6s;
     transition-timing-function: cubic-bezier(.165,.84,.44,1);
 }
@@ -369,6 +367,13 @@ label{
 
 .input_fieldSuccess{
     color: #69dbb1;
+    font-size: 12px;
+    min-height: 16px;
+    text-align: left;
+}
+
+.input_fieldInfoPassword{
+    color: #c8c8c8;
     font-size: 12px;
     min-height: 16px;
     text-align: left;
