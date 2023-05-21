@@ -382,6 +382,7 @@ button{
     outline: none;
     vertical-align: top;
     cursor: pointer;
+    text-align: center;
 }
 
 footer{
